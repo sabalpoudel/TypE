@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Interactive code typing effect generator. Input a code snippet and watch it type out dynamically for creating engaging reels and videos in 9:16 format."
+    />
+    <meta
+      name="keywords"
+      content="typing effect, code snippet generator, dynamic typing, interactive code, reels creation, 9:16 videos, video effects, programming showcase"
+    />
+    <meta name="author" content="sabalpoudel" />
+
+    <!-- Social Media Meta Tags (Open Graph) -->
+    <meta property="og:title" content="Interactive Code Typing Effect" />
+    <meta
+      property="og:description"
+      content="Create dynamic typing effects for your code snippets. Perfect for generating engaging reels and videos in a 9:16 aspect ratio."
+    />
+    <meta property="og:image" content="img/TypE.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Interactive Code Typing Effect" />
+    <meta
+      name="twitter:description"
+      content="Create dynamic typing effects for your code snippets and generate 9:16 videos for reels and social media."
+    />
+    <meta name="twitter:image" content="img/TypE-1200*675.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="fav/favicon.ico" />
+
+    <!-- Page Title -->
+    <title>Interactive Code Typing Effect</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Left Panel -->
+      <div class="input-panel">
+        <h2>Settings</h2>
+        <label for="title-input">Title:</label>
+        <input type="text" id="title-input" placeholder="Enter title..." />
+
+        <label for="code-input">Code Snippet:</label>
+        <textarea
+          id="code-input"
+          placeholder="Enter your code snippet here..."
+          rows="10"
+        ></textarea>
+
+        <label for="font-size">
+          Font Size: <span id="font-size-display">16</span>px
+        </label>
+        <input type="range" id="font-size" min="10" max="30" value="16" />
+        <div class="action-button">
+          <button id="generate-button">Generate</button>
+          <button id="action-button">Stop</button>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="output-panel">
+        <div class="code-output-container">
+          <h1 id="title" class="output-title">Output Title</h1>
+          <pre id="code-output" class="code-display"></pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

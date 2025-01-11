@@ -1,0 +1,19 @@
+{
+    "name": "Code Typing Effect",
+    "short_name": "TypE",
+    "icons": [
+        {
+            "src": "/fav/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/fav/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#c5c8c6",
+    "background_color": "#1e1e2f"
+}
